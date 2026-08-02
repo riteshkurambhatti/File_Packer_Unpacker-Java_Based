@@ -191,7 +191,7 @@ This project is for educational and personal use.
 
 ---
 
-**Created by**: Swamit Jadhav
+**Created by**: Ritesh Kurambhatti
 **Version**: 1.0  
 **Last Updated**: 2025
 
