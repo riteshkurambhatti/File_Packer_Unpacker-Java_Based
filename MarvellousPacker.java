@@ -1,15 +1,15 @@
-package MarvellousPackerUnpacker;
+package FilePackerUnpacker;
 
 import java.util.*;
 import java.io.*;
 
-public class MarvellousPacker
+public class FilePacker
 {
     private String PackName;
     private String DirName;
     private String encryptionKey;
 
-    public MarvellousPacker(String A, String B, String key)             // parameterized Constructor
+    public FilePacker(String A, String B, String key)             // parameterized Constructor
     {
         this.PackName = A;
         this.DirName = B;
@@ -77,7 +77,7 @@ public class MarvellousPacker
         try
         {
             System.out.println("--------------------------------------------------------------------------------------------");
-            System.out.println("-------------------------------- Marvellous Packer Unpacker --------------------------------");
+            System.out.println("----------------------------------- File Packer Unpacker -----------------------------------");
             System.out.println("--------------------------------------------------------------------------------------------");
             System.out.println("-------------------------------------- Packing Activity ------------------------------------");
             System.out.println("--------------------------------------------------------------------------------------------");
@@ -184,4 +184,4 @@ public class MarvellousPacker
 
     } // End of PackingActivity function
 
-}  // End of MarvellousPacker class
+}  // End of FilePacker class
