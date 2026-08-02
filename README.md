@@ -23,9 +23,9 @@ A Java-based file archiving utility that packs multiple files into a single arch
 
 ```
 FilePackerUnpacker/
-├── MarvellousPackerUnpacker/
-│   ├── MarvellousPacker.java      # Main packing class with encryption
-│   ├── MarvellousUnpacker.java    # Main unpacking class with decryption
+├── PackerUnpacker/
+│   ├── Packer.java      # Main packing class with encryption
+│   ├── Unpacker.java    # Main unpacking class with decryption
 │   └── Main.java                  # User interface and menu system
 ├── a/                            # Sample directory for testing
 │   ├── lb.txt
