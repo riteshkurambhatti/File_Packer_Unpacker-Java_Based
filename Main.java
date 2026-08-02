@@ -1,4 +1,4 @@
-package MarvellousPackerUnpacker;
+package FilePackerUnpacker;
 
 import java.util.Scanner;
 
