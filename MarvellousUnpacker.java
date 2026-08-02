@@ -1,20 +1,19 @@
-package MarvellousPackerUnpacker;
+package FilePackerUnpackeer;
 
-import java.util.*;
-import java.io.*;
+ import java.io.*;
 
-public class MarvellousUnpacker
+public class FileUnpackeer
 {
     private String PackName;
     private String decryptionKey;
     
-    public MarvellousUnpacker(String A, String key)
+    public FileUnpackeer(String A, String key)
     {
         this.PackName = A;
         this.decryptionKey = key;
     }
     
-    public MarvellousUnpacker(String A)
+    public FileUnpackeer(String A)
     {
         this.PackName = A;
         loadEncryptionKey();
@@ -87,7 +86,7 @@ public class MarvellousUnpacker
         try
         {
             System.out.println("--------------------------------------------------------------------------------------------");
-            System.out.println("-------------------------------- Marvellous Packer Unpacker --------------------------------");
+            System.out.println("----------------------------------- File Packer Unpacker -----------------------------------");
             System.out.println("--------------------------------------------------------------------------------------------");
             System.out.println("------------------------------------ Unpacking Activity ------------------------------------");
             System.out.println("--------------------------------------------------------------------------------------------");
