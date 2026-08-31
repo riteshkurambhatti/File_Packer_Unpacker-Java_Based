@@ -130,7 +130,7 @@ The application includes debug output to help understand the encryption process:
 
 ## 📝 Code Structure
 
-### MarvellousPacker.java
+### Packer.java
 - **Purpose**: Handles file packing with encryption
 - **Key Features**:
   - Directory traversal
@@ -138,7 +138,7 @@ The application includes debug output to help understand the encryption process:
   - Key file generation
   - Statistical reporting
 
-### MarvellousUnpacker.java
+### Unpacker.java
 - **Purpose**: Handles file unpacking with decryption
 - **Key Features**:
   - Archive reading
